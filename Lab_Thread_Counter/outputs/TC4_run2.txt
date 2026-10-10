@@ -1,0 +1,9 @@
+C:\Users\Hp\Desktop\ICT 3 1\Software Engineering and Project Management\Lab_Thread_Counter>java ThreadCounterLab 10 50000 false
+Threads: 10
+Increments per thread: 50000
+Mode: Unsafe
+Expected count: 500000
+Static count: 115692
+Non-static total: 500000
+Absolute difference: 384308
+Percentage difference: 76.8616%

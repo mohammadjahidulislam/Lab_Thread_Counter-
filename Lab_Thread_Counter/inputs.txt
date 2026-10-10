@@ -1,0 +1,70 @@
+Lab: Thread Counter
+Problem ID: SEPM-001
+
+Test Case Inputs
+
+TC1:
+Threads = 1
+Increments per thread = 1000
+
+TC2:
+Threads = 2
+Increments per thread = 10000
+
+TC3:
+Threads = 5
+Increments per thread = 10000
+
+TC4:
+Threads = 10
+Increments per thread = 50000
+
+TC5:
+Threads = 20
+Increments per thread = 50000
+
+TC6:
+Threads = 50
+Increments per thread = 50000
+
+TC7:
+Threads = 100
+Increments per thread = 50000
+
+Execution Modes:
+true  = Thread-safe counter
+false = Unsafe counter
+
+Commands:
+
+TC1:
+java ThreadCounterLab 1 1000 true
+java ThreadCounterLab 1 1000 false
+
+TC2:
+java ThreadCounterLab 2 10000 true
+java ThreadCounterLab 2 10000 false
+
+TC3:
+java ThreadCounterLab 5 10000 true
+java ThreadCounterLab 5 10000 false
+
+TC4:
+java ThreadCounterLab 10 50000 true
+java ThreadCounterLab 10 50000 false
+
+TC5:
+java ThreadCounterLab 20 50000 true
+java ThreadCounterLab 20 50000 false
+
+TC6:
+java ThreadCounterLab 50 50000 true
+java ThreadCounterLab 50 50000 false
+
+TC7:
+java ThreadCounterLab 100 50000 true
+java ThreadCounterLab 100 50000 false
+
+Note:
+Run the unsafe mode at least five times for each test case.
+Record actual outputs without modification.

@@ -1,7 +1,7 @@
 
 import java.util.concurrent.atomic.AtomicLong;
 
-public class ThreadCounterLab {
+public class Jahidul_Thread {
 
     // Shared thread-safe and unsafe static counters
     static AtomicLong safeCounter = new AtomicLong(0);
